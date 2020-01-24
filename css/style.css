@@ -1,0 +1,35 @@
+label {
+  display: block;
+}
+#comienzo {
+  display: block;
+}
+
+#gameArea {
+  border-style: solid;
+  padding: 50px;
+}
+
+#contenedorImagenes {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#contenedorImagenes > img {
+  height: 150px;
+  width: 150px;
+}
+
+#costumeArea {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#costumeArea > img {
+  width: 190px;
+}
+
+#reinicio {
+  margin-top: 40px;
+  margin-left: 1%;
+}
